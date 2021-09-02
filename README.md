@@ -1,0 +1,1 @@
+# ssw.github.template
