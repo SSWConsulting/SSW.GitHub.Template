@@ -1,8 +1,8 @@
 ---
-name: Bug report
+name: "🐛 Bug Report"
 about: Create a report to help us improve
-title: ''
-labels: ''
+title: "🐛"
+labels: 'Type: Bug'
 assignees: ''
 
 ---
@@ -33,6 +33,10 @@ If applicable, add screenshots to help explain your problem.
  - OS: [e.g. iOS8.1]
  - Browser [e.g. stock browser, safari]
  - Version [e.g. 22]
+
+**Sprout Information**
+ - Version/Git Commit: [eg 0.1.0 / feature/something-new]
+ - .NET Version: [eg .NET 6 RC1]
 
 **Additional context**
 Add any other context about the problem here.
