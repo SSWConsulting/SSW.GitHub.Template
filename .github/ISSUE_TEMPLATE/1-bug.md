@@ -6,7 +6,7 @@ labels: 'bug'
 assignees: ''
 
 ---
-
+<!-- These comments automatically delete -->
 cc: <!-- @ metion users who are in the loop -->
 Hi SSW Rules Team,
 
@@ -31,7 +31,7 @@ If applicable, add screenshots to help explain your problem.
  - Browser: [e.g. chrome, safari]
  - OS: [e.g. iOS]
 
-**Additional context**
+**Additional Context**
 Add any other context about the problem here.
 
 Thanks!

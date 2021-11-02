@@ -1,11 +1,12 @@
 ---
-name: "Dev - ♻️ Refactor"
+name: "♻️ Refactor (Dev Only)"
 about: 'Something that needs improving while not changing functionality '
 title: "♻️"
 labels: ''
 assignees: ''
 
 ---
+<!-- These comments automatically delete -->
 cc: <!-- @ metion users who are in the loop -->
 Hi SSW Rules Team,
   

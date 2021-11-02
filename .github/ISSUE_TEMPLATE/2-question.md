@@ -6,6 +6,7 @@ labels: 'question'
 assignees: ''
 
 ---
+<!-- These comments automatically delete -->
 cc: <!-- @ metion users who are in the loop -->
 Hi SSW Rules Team,
 
