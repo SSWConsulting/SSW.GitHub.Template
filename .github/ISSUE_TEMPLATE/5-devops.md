@@ -1,5 +1,5 @@
 ---
-name: "Dev - 👷 DevOps & CI/CD"
+name: "👷 DevOps & CI/CD (Dev Only)"
 about: Updating the piplines
 title: "👷"
 labels: 'DevOps'
@@ -7,6 +7,7 @@ assignees: ''
 
 ---
 
+<!-- These comments automatically delete -->
 cc: <!-- @ metion users who are in the loop -->
 Hi SSW Rules Team,
   
@@ -16,7 +17,7 @@ Hi SSW Rules Team,
 1. ...
 2. ...
 
-**Additional context**
+**Additional Context**
 <!-- Add any other context or screenshots about the feature request here. -->
 
 Thanks!
