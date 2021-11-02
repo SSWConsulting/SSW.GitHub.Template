@@ -1,5 +1,5 @@
 ---
-name: "♻️ Refactor (Dev Only)"
+name: "♻️ Refactor"
 about: 'Something that needs improving while not changing functionality '
 title: "♻️"
 labels: ''

@@ -1,5 +1,5 @@
 ---
-name: "👷 DevOps & CI/CD (Dev Only)"
+name: "👷 DevOps & CI/CD"
 about: Updating the piplines
 title: "👷"
 labels: 'DevOps'
