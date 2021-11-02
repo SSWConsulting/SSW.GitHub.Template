@@ -8,7 +8,8 @@ assignees: ''
 ---
 
 <!-- These comments automatically delete -->
-cc: <!-- @ metion users who are in the loop -->
+<!-- @ metion users who are in the loop -->
+cc: 
 Hi SSW Rules Team,
   
 <!-- Explain the problem -->
