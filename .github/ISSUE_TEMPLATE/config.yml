@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: SSW Rules issue template
+    url: https://www.ssw.com.au/rules/do-you-have-the-best-github-issue-template
+    about: See our rule on GitHub issue templates
