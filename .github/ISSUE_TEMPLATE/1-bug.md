@@ -9,7 +9,7 @@ assignees: ''
 <!-- These comments automatically delete -->
 <!-- @ mention users who should be in the loop next to cc: -->
 cc: 
-Hi <!--add intended user-->,
+Hi <!-- add intended user -->,
 
 **Describe the Bug**
 A clear and concise description of what the bug is.
