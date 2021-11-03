@@ -11,6 +11,10 @@ assignees: ''
 cc: 
 Hi <!-- add intended user -->,
 
+**Pain:**
+<!-- Explain the pain you are experiencing -->
+
+**Suggested Documentation**
 <!-- Short summary of the documentation that should be added -->
 
 <!--Add GitHub tasks-->
