@@ -1,6 +1,6 @@
 ---
 name: "✨ New Feature"
-about: Suggest an idea for this project
+about: Suggest an idea
 title: "✨"
 labels: 'Type: Feature'
 assignees: ''
