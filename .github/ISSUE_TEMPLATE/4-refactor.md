@@ -7,13 +7,14 @@ assignees: ''
 
 ---
 <!-- These comments automatically delete -->
-<!-- @ metion users who are in the loop -->
+<!-- @ mention users who should be in the loop next to cc: -->
 cc: 
 Hi Team,
 
 
 **What code could be improved?**
 <!-- Add a link to the area/file that needs refactoring -->
+
 <!-- Explain why -->
 
 <!--Add numbered tasks-->
