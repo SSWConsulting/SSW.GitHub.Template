@@ -11,7 +11,7 @@ assignees: ''
 cc: 
 Hi <!-- add intended user -->,
 
-## Pain:
+## Pain
 <!-- Explain the pain you are experiencing -->
 
 ## What code could be improved?
@@ -21,5 +21,11 @@ Hi <!-- add intended user -->,
 <!--Add GitHub tasks-->
 - [ ] ...
 - [ ] ...
+
+## Additional Context
+<!-- Add any other context here. -->
+
+### Screenshots
+<!-- If applicable, add screenshots to help explain your problem. -->
 
 Thanks!
