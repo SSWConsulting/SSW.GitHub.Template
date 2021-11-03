@@ -2,7 +2,7 @@
 name: "📝 Documentation"
 about: Updating documentation (e.g. README, Wiki, Guides etc.) as per https://www.ssw.com.au/rules/awesome-documentation/
 title: "📝"
-labels: 'type: documentation'
+labels: 'Type: Documentation'
 assignees: ''
 
 ---

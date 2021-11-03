@@ -2,7 +2,7 @@
 name: "✨ New Feature"
 about: Suggest an idea
 title: "✨"
-labels: 'type: feature'
+labels: 'Type: Feature'
 assignees: ''
 
 ---
