@@ -9,13 +9,13 @@ assignees: ''
 <!-- These comments automatically delete -->
 <!-- @ mention users who should be in the loop next to cc: -->
 cc: 
-Hi Team,
+Hi <!-- add intended user -->,
 
-<!-- Short summary of  -->
+<!-- Short summary of the documentation that should be added -->
 
-<!--Add numbered tasks-->
-1. ...
-2. ...
+<!--Add GitHub tasks-->
+- [ ] ...
+- [ ] ...
 
 **Additional Context**
 <!-- Add any other context or screenshots here -->
