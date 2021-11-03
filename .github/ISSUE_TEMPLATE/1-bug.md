@@ -8,28 +8,29 @@ assignees: ''
 ---
 <!-- These comments automatically delete -->
 <!-- **Tip:** Delete parts that are not relevant -->
-<!-- @ mention users who should be in the loop next to cc: -->
-cc: 
-Hi <!-- add intended user -->,
+<!-- Next to Cc:, @ mention users who should be in the loop -->
+Cc:
+<!-- add intended user next to **Hi** -->
+Hi 
 
-## Describe the Bug
+### Describe the Bug
 <!-- A clear and concise description of what the bug is. -->
 
-## To Reproduce
+### To Reproduce
 Steps to reproduce the behavior:
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
 4. See error
 
-## Expected Behavior
+### Expected Behavior
 <!-- A clear and concise description of what you expected to happen. -->
 
-## Action Steps
+### Tasks
 - [ ] Investigate
 - [ ] Fix
 
-## Additional Context
+### Additional Context
 <!-- Add any other context about the problem here. -->
 
 ### Environment:
