@@ -12,10 +12,10 @@ assignees: ''
 cc: 
 Hi <!-- add intended user -->,
   
-## Pain:
+## Pain
 <!-- Explain the pain you are experiencing -->
 
-## Suggested Solution:
+## Suggested Solution
 <!-- Describe the solution you'd like -->
 
 ## Action Steps
@@ -24,6 +24,9 @@ Hi <!-- add intended user -->,
 - [ ] ...
 
 ## Additional Context
-<!-- Add any other context or screenshots about the feature request here. -->
+<!-- Add any other context here. -->
+
+### Screenshots
+<!-- If applicable, add screenshots to help explain your problem. -->
 
 Thanks!
