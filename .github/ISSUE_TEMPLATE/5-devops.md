@@ -10,7 +10,7 @@ assignees: ''
 <!-- These comments automatically delete -->
 <!-- @ mention users who should be in the loop next to cc: -->
 cc: 
-Hi <!--add intended user-->,
+Hi <!-- add intended user -->,
   
 **Pain:**
 <!-- Explain the pain you are experiencing -->
