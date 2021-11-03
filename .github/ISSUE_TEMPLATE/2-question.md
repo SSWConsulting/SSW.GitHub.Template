@@ -8,12 +8,14 @@ assignees: ''
 ---
 <!-- These comments automatically delete -->
 <!-- **Tip:** Delete parts that are not relevant -->
-<!-- @ mention users who should be in the loop next to cc: -->
-cc: 
-Hi <!-- add intended user -->,
+<!-- Next to Cc:, @ mention users who should be in the loop -->
+Cc:
+<!-- add intended user next to **Hi** -->
+Hi 
 
-<!-- Add GitHub Tasks as questions -->
-- [ ] ...
-- [ ] ...
+### Questions
+<!-- Add numbered questions -->
+1. ...
+2. ...
 
 Thanks!
