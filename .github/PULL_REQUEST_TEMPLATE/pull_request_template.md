@@ -1,5 +1,8 @@
+# Closes Issue
 <!-- Include the issue it closes -->
 
-<!-- Summarie your changes -->
+# Summary of Changes
+<!-- Summarize your changes -->
 
+# Screenshots
 <!-- include screenshots if relevant -->
