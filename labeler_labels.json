@@ -1,11 +1,6 @@
 {
 	"labels": [
 		{
-			"name": "Type: Question",
-			"description": "A question for the developers",
-			"color": "FF6DD9"
-		},
-		{
 			"name": "Type: Feature",
 			"description": "A suggested idea for this project",
 			"color": "6DFF6D"
