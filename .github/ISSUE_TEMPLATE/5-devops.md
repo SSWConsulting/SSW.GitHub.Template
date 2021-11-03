@@ -8,6 +8,7 @@ assignees: ''
 ---
 
 <!-- These comments automatically delete -->
+<!-- **Tip:** Delete parts that are not relevant -->
 <!-- @ mention users who should be in the loop next to cc: -->
 cc: 
 Hi <!-- add intended user -->,
