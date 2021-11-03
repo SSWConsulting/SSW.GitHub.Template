@@ -11,13 +11,13 @@ assignees: ''
 cc: 
 Hi <!-- add intended user -->,
 
-
-**Pain:**
+## Pain:
 <!-- Explain the pain you are experiencing -->
 
-**What code could be improved?**
+## What code could be improved?
 <!-- Add a link to the area/file that needs refactoring -->
 
+## Action Steps
 <!--Add GitHub tasks-->
 - [ ] ...
 - [ ] ...
