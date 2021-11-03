@@ -33,7 +33,7 @@ Steps to reproduce the behavior:
 ### More Information
 <!-- Add any other context about the problem here. -->
 
-### Environment:
+### Environment
  - Device: [e.g. iPhone 12]
  - Browser: [e.g. chrome, safari]
  - OS: [e.g. iOS]
