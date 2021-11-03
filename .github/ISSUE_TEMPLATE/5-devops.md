@@ -2,7 +2,7 @@
 name: "👷 DevOps"
 about: Updating the CI/CD piplines
 title: "👷"
-labels: 'Type: DevOps'
+labels: 'type: devops'
 assignees: ''
 
 ---
