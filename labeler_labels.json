@@ -49,6 +49,12 @@
 			"name": "Is: Tech Debt",
 			"description": "Something that creates maintenance problems on the solution",
 			"color": "006B75"
+		},
+		{
+			"name": "good first issue",
+			"description": "Great for a developer just starting out on this project",
+			"color": "7057ff"
 		}
+        
 	]
 }
