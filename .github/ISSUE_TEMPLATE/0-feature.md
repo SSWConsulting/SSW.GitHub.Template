@@ -17,13 +17,13 @@ Hi <!-- add intended user -->,
 ## Suggested Solution
 <!-- Describe the solution you'd like -->
 
-### Action Steps
+## Action Steps
 <!--Add GitHub tasks-->
 - [ ] ...
 - [ ] ...
 
-### Additional Context
-<!-- Add any other context about the feature request here. -->
+## Additional Context
+<!-- Add any other context here. -->
 
 ### Screenshots
 <!-- If applicable, add screenshots to help explain your problem. -->
