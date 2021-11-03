@@ -11,17 +11,21 @@ assignees: ''
 cc: 
 Hi <!-- add intended user -->,
 
-**Pain:**
+## Pain
 <!-- Explain the pain you are experiencing -->
 
-**Suggested Documentation**
+## Suggested Documentation
 <!-- Short summary of the documentation that should be added -->
 
+## Action Steps
 <!--Add GitHub tasks-->
 - [ ] ...
 - [ ] ...
 
-**Additional Context**
-<!-- Add any other context or screenshots here -->
+## Additional Context
+<!-- Add any other context here -->
+
+### Screenshots
+<!-- If applicable, add screenshots to help explain your problem. -->
 
 Thanks!
