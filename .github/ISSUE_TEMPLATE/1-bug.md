@@ -24,7 +24,7 @@ Steps to reproduce the behavior:
 ## Expected Behavior
 <!-- A clear and concise description of what you expected to happen. -->
 
-## Steps to Fix
+## Action Steps
 - [ ] Investigate
 - [ ] Fix
 
