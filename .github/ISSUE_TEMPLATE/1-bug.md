@@ -30,7 +30,7 @@ Steps to reproduce the behavior:
 - [ ] Investigate
 - [ ] Fix
 
-### Additional Context
+### More Information
 <!-- Add any other context about the problem here. -->
 
 ### Environment:

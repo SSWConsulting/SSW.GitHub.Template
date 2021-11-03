@@ -8,22 +8,23 @@ assignees: ''
 ---
 <!-- These comments automatically delete -->
 <!-- **Tip:** Delete parts that are not relevant -->
-<!-- @ mention users who should be in the loop next to cc: -->
-cc: 
-Hi <!-- add intended user -->,
+<!-- Next to Cc:, @ mention users who should be in the loop -->
+Cc:
+<!-- add intended user next to **Hi** -->
+Hi 
 
-## Pain
+### Pain
 <!-- Explain the pain you are experiencing -->
 
-## What code could be improved?
+### What code could be improved?
 <!-- Add a link to the area/file that needs refactoring -->
 
-## Action Steps
+### Tasks
 <!--Add GitHub tasks-->
 - [ ] ...
 - [ ] ...
 
-## Additional Context
+### More Information
 <!-- Add any other context here. -->
 
 ### Screenshots

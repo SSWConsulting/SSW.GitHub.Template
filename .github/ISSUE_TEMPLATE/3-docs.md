@@ -13,18 +13,18 @@ Cc:
 <!-- add intended user next to **Hi** -->
 Hi 
 
-## Pain
+### Pain
 <!-- Explain the pain you are experiencing -->
 
-## Suggested Documentation
+### Suggested Documentation
 <!-- Short summary of the documentation that should be added -->
 
-## Action Steps
+### Tasks
 <!--Add GitHub tasks-->
 - [ ] ...
 - [ ] ...
 
-## Additional Context
+### More Information
 <!-- Add any other context here -->
 
 ### Screenshots
