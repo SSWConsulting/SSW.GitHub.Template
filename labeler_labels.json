@@ -1,0 +1,54 @@
+{
+	"labels": [
+		{
+			"name": "Type: Question",
+			"description": "A question for the developers",
+			"color": "FF6DD9"
+		},
+		{
+			"name": "Type: Feature",
+			"description": "A suggested idea for this project",
+			"color": "6DFF6D"
+		},
+		{
+			"name": "Type: Bug",
+			"description": "A problem with existing functionality",
+			"color": "FF2222"
+		},
+		{
+			"name": "Type: DevOps",
+			"description": "Setting up of DevOps processes",
+			"color": "1D76DB"
+		},
+		{
+			"name": "Type: Refactor",
+			"description": "A code quality improvement",
+			"color": "0E8A16"
+		},
+		{
+			"name": "Type: Documentation",
+			"description": "Updating documentation (e.g. README, Wiki, Guides etc.)",
+			"color": "BABABA"
+		},
+		{
+			"name": "For: Backend",
+			"description": "Relates to backend development",
+			"color": "5319E7"
+		},
+		{
+			"name": "For: Frontend",
+			"description": "Relates to frontend development",
+			"color": "AC97F2"
+		},
+		{
+			"name": "Is: User Requirement",
+			"description": "Something the users are interested in",
+			"color": "7ED321"
+		},
+		{
+			"name": "Is: Tech Debt",
+			"description": "Something that creates maintenance problems on the solution",
+			"color": "006B75"
+		}
+	]
+}
