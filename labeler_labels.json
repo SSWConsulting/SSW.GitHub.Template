@@ -26,12 +26,12 @@
 			"color": "BABABA"
 		},
 		{
-			"name": "Backend",
+			"name": "Area: Backend",
 			"description": "Relates to backend development e.g. API, Database etc",
 			"color": "5319E7"
 		},
 		{
-			"name": "Frontend",
+			"name": "Area: Frontend",
 			"description": "Relates to frontend development e.g. Angular, React, XAML etc",
 			"color": "AC97F2"
 		},
