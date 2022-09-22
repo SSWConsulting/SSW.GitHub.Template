@@ -1,6 +1,6 @@
 ---
 name: "👷 DevOps"
-about: Updating the CI/CD piplines
+about: CI/CD and other DevOps concerns e.g. Updating the build, code analysis, test, deploy, application monitoring etc.
 title: "👷"
 labels: 'Type: DevOps'
 assignees: ''
