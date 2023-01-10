@@ -24,6 +24,9 @@ Hi
 - [ ] ...
 - [ ] ...
 
+### Acceptance Criteria
+<!-- Add the "contract" that defines the requirements for the GitHub Issue to be completed as per the team's agreement -->
+
 ### More Information
 <!-- Add any other context here. -->
 
