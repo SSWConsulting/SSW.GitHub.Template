@@ -30,6 +30,9 @@ Steps to reproduce the behavior:
 - [ ] Investigate
 - [ ] Fix
 
+### Acceptance Criteria
+<!-- Add the "contract" that defines the requirements for the GitHub Issue to be completed as per the team's agreement -->
+
 ### More Information
 <!-- Add any other context about the problem here. -->
 
