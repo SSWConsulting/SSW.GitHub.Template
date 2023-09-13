@@ -111,7 +111,7 @@ jobs:
               gh pr edit $number --add-label "$newLabel" --remove-label "$allLabels"
               Write-Output ""
 
-              if ($ageInHours -eq 36 -and $author.is_bot -eq $false) { # 36 hours old
+              if ($ageInHours -ge 36 -and $ageInHours -lt 38 -and $author.is_bot -eq $false) { # after 36 hours old
                   $comment = @"
           Howzit @$($author.login),
           
