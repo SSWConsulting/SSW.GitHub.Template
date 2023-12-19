@@ -11,23 +11,27 @@ assignees: ''
 <!-- Next to Cc:, @ mention users who should be in the loop -->
 Cc:
 <!-- add intended user next to **Hi** -->
-Hi 
+Hi {{ USER }}
   
 ### Pain
-<!-- Explain the pain you are experiencing -->
+Explain the pain you are experiencing.  This is **WHY** this must be done.
 
 ### Suggested Solution
 <!-- Describe the solution you'd like -->
 
-### Tasks
-<!--Add GitHub tasks-->
-- [ ] ...
-- [ ] ...
-
 ### Acceptance Criteria
-<!-- Acceptance Criteria helps to answer the question "How will I know when I'm done with this story?". It defines the  requirements that must be met for the story to be completed. See https://www.ssw.com.au/rules/acceptance-criteria -->
-- [ ] Meets Definition of Done - {{ LINK }}
-- [ ] ...
+Acceptance Criteria defines the requirements that must be met for the story to be completed.  This is **WHAT** must be done.
+
+See https://www.ssw.com.au/rules/acceptance-criteria.
+
+1. {{ AC 1 }}
+
+### Tasks
+Tasks help developers to track small bits of work needed to meet the ACs. This is **HOW** the work will be done.
+
+```[tasklist]
+- [ ] {{ TASK 1 }}
+```
 
 ### More Information
 <!-- Add any other context here. -->

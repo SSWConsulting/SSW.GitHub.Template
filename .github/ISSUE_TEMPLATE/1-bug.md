@@ -11,7 +11,7 @@ assignees: ''
 <!-- Next to Cc:, @ mention users who should be in the loop -->
 Cc:
 <!-- add intended user next to **Hi** -->
-Hi 
+Hi {{ USER }}
 
 ### Describe the Bug
 <!-- A clear and concise description of what the bug is. -->
@@ -29,11 +29,6 @@ Steps to reproduce the behavior:
 ### Tasks
 - [ ] Investigate
 - [ ] Fix
-
-### Acceptance Criteria
-<!-- Acceptance Criteria helps to answer the question "How will I know when I'm done with this story?". It defines the  requirements that must be met for the story to be completed. See https://www.ssw.com.au/rules/acceptance-criteria -->
-- [ ] Meets Definition of Done - {{ LINK }}
-- [ ] ...
 
 ### More Information
 <!-- Add any other context about the problem here. -->
