@@ -1,6 +1,8 @@
 # Overview 
 This template provides users with a default set of issue templates and labels to work with.
 
+1. Create a new GitHub project to track the work using the [\[TEMPLATE\] GitHub Scrum](https://github.com/orgs/SSWConsulting/projects/42/views/1)
+
 ## Issue Templates
 
 To see the reasoning behind these issue templates see the rule:
