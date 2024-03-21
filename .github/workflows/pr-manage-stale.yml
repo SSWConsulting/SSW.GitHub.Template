@@ -5,13 +5,13 @@ name: "PR - Manage Stale PRs"
 
 on:
   pull_request:
-    types: [opened, ready_for_review]
+    types: [opened, ready_for_review, closed]
     branches: [main]
 
-  schedule:
-    # run every 2nd hour
-    # https://crontab.guru/#0_0/2_*_*_*
-    - cron: "0 0/2 * * *"
+  # schedule:
+  #   # run every 2nd hour
+  #   # https://crontab.guru/#0_0/2_*_*_*
+  #   - cron: "0 0/2 * * *"
 
   workflow_dispatch:
 
