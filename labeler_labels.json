@@ -26,6 +26,11 @@
 			"color": "BABABA"
 		},
 		{
+			"name": "Type: Video",
+			"description": "Upload video to YouTube channel",
+			"color": "333333"
+		},
+		{
 			"name": "Area: Backend",
 			"description": "Relates to backend development e.g. API, Database etc",
 			"color": "5319E7"
