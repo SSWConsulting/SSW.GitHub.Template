@@ -11,13 +11,11 @@ on:
 
 permissions:
   contents: read
+  issues: read
   pull-requests: write
 
 jobs:
   review-reminder:
-    permissions:
-      contents: read
-      pull-requests: write
 
     runs-on: ubuntu-latest
 
