@@ -6,10 +6,10 @@
 
 ✏️ 
 
-> 3. Did you do pair or mob programming?
+> I paired or mob programmed with: <!-- list names or remove if not relevant -->
 
 ✏️ 
-<!-- E.g. I worked with @gordonbeeming and @sethdailyssw -->
+<!-- E.g.  I paired or mob programmed with: @gordonbeeming and @sethdailyssw -->
 
 <!-- 
 Check out the relevant rules
