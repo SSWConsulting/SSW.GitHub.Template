@@ -6,7 +6,7 @@
 
 ✏️ 
 
-> I paired or mob programmed with: <!-- list names or remove if not relevant -->
+> 3. I paired or mob programmed with: <!-- list names or remove if not relevant -->
 
 ✏️ 
 <!-- E.g.  I paired or mob programmed with: @gordonbeeming and @sethdailyssw -->
