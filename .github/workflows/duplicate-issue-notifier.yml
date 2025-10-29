@@ -1,0 +1,120 @@
+name: Notify Closed Duplicates
+
+on:
+  # Trigger when an issue is closed (the master issue is closed)
+  issues:
+    types: [closed]
+
+jobs:
+  notify-duplicates:
+    # Only proceed if the master issue is closed as completed
+    if: github.event.issue.state == 'closed' && github.event.issue.state_reason == 'completed'
+    
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 🔍 Find Closed Duplicate Issues
+        id: find_duplicates
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const masterIssueNumber = context.payload.issue.number;
+            const repo = context.repo;
+            const duplicateDetails = [];
+
+            const query = `
+              query GetMarkedDuplicates($owner: String!, $repo: String!, $issueNumber: Int!) {
+                repository(owner: $owner, name: $repo) {
+                  issue(number: $issueNumber) {
+                    timelineItems(itemTypes: [MARKED_AS_DUPLICATE_EVENT], first: 100) {
+                      nodes {
+                        ... on MarkedAsDuplicateEvent {
+                          duplicate {
+                            ... on Issue {
+                              number
+                              state
+                              url
+                              author {
+                                login
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            `;
+            
+            const result = await github.graphql(query, {
+              owner: repo.owner,
+              repo: repo.repo,
+              issueNumber: masterIssueNumber
+            });
+
+            const timelineNodes = result.repository.issue.timelineItems.nodes;
+            console.log(`Found ${timelineNodes.length} 'Marked as Duplicate' events.`);
+
+            // Process the results and filter
+            for (const node of timelineNodes) {
+              const duplicateIssue = node.duplicate;
+
+              if (duplicateIssue && duplicateIssue.number && duplicateIssue.state === 'CLOSED') {
+                console.log(`Duplicate issue found: #${duplicateIssue.number} by @${duplicateIssue.author.login}`);
+                
+                // PUSH: Store the object { number, author }
+                duplicateDetails.push({
+                  number: duplicateIssue.number,
+                  author: duplicateIssue.author.login
+                });
+              }
+            }
+            
+            const jsonString = JSON.stringify(duplicateDetails);
+            core.setOutput('duplicate_details_json', jsonString);
+
+
+      - name: 💬 Add Comment to Duplicates
+        uses: actions/github-script@v7
+        # Pass the JSON string from the previous step into an environment variable
+        env:
+          DUPLICATE_DETAILS_JSON: ${{ steps.find_duplicates.outputs.duplicate_details_json }}
+          
+        # Only run this step if duplicates were found (check if the JSON string is not empty or just "[]")
+        if: ${{ steps.find_duplicates.outputs.duplicate_details_json != '' && steps.find_duplicates.outputs.duplicate_details_json != '[]' }}
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const jsonString = process.env.DUPLICATE_DETAILS_JSON;
+            const duplicateDetails = JSON.parse(jsonString || '[]');
+
+            const masterIssueNumber = context.payload.issue.number;
+            const repo = context.repo;
+
+            console.log(`Attempting to comment on ${duplicateDetails.length} duplicate issue(s).`);
+
+            // Loop through the array of detail objects
+            for (const detail of duplicateDetails) {
+              const issueNumber = detail.number;
+              const authorLogin = detail.author;
+
+              // Construct the comment body to @ the author
+              const commentBody = 
+                `Hey @${authorLogin} 👋\n\n Good news - this issue is fixed! 🎉\n\n` + 
+                `Your issue was marked as a duplicate, and the work was tracked in this master issue: **#${masterIssueNumber}**` + 
+                `\n\nThanks for your contribution! 🙏`;
+
+              try {
+                await github.rest.issues.createComment({
+                  owner: repo.owner,
+                  repo: repo.repo,
+                  issue_number: issueNumber,
+                  body: commentBody
+                });
+                console.log(`Successfully commented on #${issueNumber} and notified @${authorLogin}`);
+              } catch (error) {
+                console.error(`Failed to comment on #${issueNumber}. Error: ${error.message}`);
+              }
+            }
