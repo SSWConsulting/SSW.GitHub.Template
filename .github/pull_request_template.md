@@ -2,7 +2,8 @@
 
 <!--
 INSTRUCTIONS: replace this comment with your answer.
-What triggered this change? Link the PBI or issue, or give the email subject or conversation, plus the reason.
+Why are we making this change? Lead with the outcome a reviewer needs to know.
+Then link the PBI or issue, or give the email subject or conversation, as a reference.
 -->
 
 ## Summary
@@ -24,27 +25,27 @@ Put each visual next to the short sentence it supports. Keep only the calls, fil
 <!--
 INSTRUCTIONS: replace this comment with your answer.
 Show concrete proof that the change works.
-- Best: screenshots, for visual changes
-- Good: test results or console output. Name the test that failed before and passes now.
-When there is a meaningful before state (a bug fix, a changed screen or output), use this shape:
+- UI changes: side-by-side screenshots or a short clip
+- Other changes: link the relevant check, test run or console output, and name the test that failed before and passes now
+Either way, say what you verified and what you didn't.
 
-**Before:** <screenshot / output / failing test run>
+Before/After is optional. Use it only when there is a meaningful before state (a bug fix, a changed screen or output):
 
-**After:** <screenshot / output / passing test run>
+**Before:** <screenshot / clip / output / failing test run>
 
-New features with no before state need only the after evidence.
+**After:** <screenshot / clip / output / passing test run>
 -->
 
-## Merge Danger
+## Risk and Rollback
 
 **Door:**
 
-**Blast Radius:**
+**What could break:**
 
 <!--
-INSTRUCTIONS: replace this comment and fill in Door/Blast Radius.
+INSTRUCTIONS: replace this comment and fill in Door and What could break.
 - Door: "two-way" if the change is cheap to roll back, or "one-way" if it is destructive or hard to reverse (data migrations, deletions, published contracts). Add a sentence if it isn't obvious.
-- Blast Radius: one word (e.g. none, low, medium, high), then any possible ramifications of merging: broken consumers, layout shift, mobile responsiveness, data loss.
+- What could break: in a short sentence or two, what could break, who would notice, and how would we undo it? Think broken consumers, layout shift, mobile responsiveness, data loss.
 -->
 
 <!--
