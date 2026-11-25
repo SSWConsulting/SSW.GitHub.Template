@@ -21,4 +21,4 @@ Talk to these people about changes to this repo.
 - [Matt Wicks](https://ssw.com.au/people/matt-wicks/)
 - [Piers Sinclair](https://ssw.com.au/people/piers-sinclair/)
 - [Gordon Beeming](https://ssw.com.au/people/gordon-beeming/)
-- [Brady Stroud]([url](https://ssw.com.au/people/brady-stroud/))
+- [Brady Stroud](https://ssw.com.au/people/brady-stroud/)
