@@ -1,4 +1,4 @@
-## Trigger
+## Why
 
 <!--
 INSTRUCTIONS: replace this comment with your answer.
@@ -21,15 +21,18 @@ Put each visual next to the short sentence it supports. Keep only the calls, fil
 
 ## Evidence
 
-**Before:**
-
-**After:**
-
 <!--
-INSTRUCTIONS: replace this comment and fill in Before/After.
+INSTRUCTIONS: replace this comment with your answer.
 Show concrete proof that the change works.
 - Best: screenshots, for visual changes
 - Good: test results or console output. Name the test that failed before and passes now.
+When there is a meaningful before state (a bug fix, a changed screen or output), use this shape:
+
+**Before:** <screenshot / output / failing test run>
+
+**After:** <screenshot / output / passing test run>
+
+New features with no before state need only the after evidence.
 -->
 
 ## Merge Danger
