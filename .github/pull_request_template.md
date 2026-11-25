@@ -5,11 +5,20 @@
 > 2. What was changed?
 
 ✏️ 
+<!-- Show the smallest view that makes the change clear: a diagram, a diff sketch, pseudocode, a call tree or a file tree. -->
 
-> 3. I paired or mob programmed with: <!-- list names or remove if not relevant -->
+> 3. Evidence: how do you know it works?
 
-✏️ 
-<!-- E.g.  I paired or mob programmed with: @gordonbeeming and @sethdailyssw -->
+**Before:** ✏️ 
+
+**After:** ✏️ 
+<!-- Screenshots are best for visual changes. Otherwise show test results or console output. -->
+
+> 4. Merge danger
+
+**Door:** ✏️ <!-- one-way (hard to reverse, e.g. data migrations, deletions) or two-way (cheap to roll back) -->
+
+**Blast radius:** ✏️ <!-- one word, then optionally what could break if this goes wrong (consumers, layout, mobile, data) -->
 
 <!-- 
 Check out the relevant rules
@@ -17,5 +26,4 @@ Check out the relevant rules
 - https://www.ssw.com.au/rules/rules-to-better-pull-requests
 - https://www.ssw.com.au/rules/write-a-good-pull-request
 - https://www.ssw.com.au/rules/over-the-shoulder-prs 
-- https://www.ssw.com.au/rules/do-you-use-co-creation-patterns
 -->
