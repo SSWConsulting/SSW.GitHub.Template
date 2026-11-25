@@ -36,16 +36,16 @@ Before/After is optional. Use it only when there is a meaningful before state (a
 **After:** <screenshot / clip / output / passing test run>
 -->
 
-## Risk and Rollback
+## Merge Danger
 
 **Door:**
 
-**What could break:**
+**Blast Radius:**
 
 <!--
-INSTRUCTIONS: replace this comment and fill in Door and What could break.
+INSTRUCTIONS: replace this comment and fill in Door and Blast Radius.
 - Door: "two-way" if the change is cheap to roll back, or "one-way" if it is destructive or hard to reverse (data migrations, deletions, published contracts). Add a sentence if it isn't obvious.
-- What could break: in a short sentence or two, what could break, who would notice, and how would we undo it? Think broken consumers, layout shift, mobile responsiveness, data loss.
+- Blast Radius: in a short sentence or two, what could break, who would notice, and how would we undo it? Think broken consumers, layout shift, mobile responsiveness, data loss.
 -->
 
 <!--
