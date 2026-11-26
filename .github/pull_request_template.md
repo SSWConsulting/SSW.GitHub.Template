@@ -1,16 +1,15 @@
-## Why
-
-<!--
-INSTRUCTIONS: replace this comment with your answer.
-Why are we making this change? Lead with the outcome a reviewer needs to know.
-Then link the PBI or issue, or give the email subject or conversation, as a reference.
--->
-
 ## Summary
 
 <!--
 INSTRUCTIONS: replace this comment with your answer.
-Show the smallest view that makes the change clear. Skip preambles and keep prose brief. Pick one or two of:
+Start with the main changes in short bullets, most important first.
+Group related work into a single bullet and leave out routine implementation details.
+
+Example:
+- Added CSV export for filtered orders, using the filters already selected on the page.
+- Restricted exports to users who already have permission to view orders.
+
+Next, show the smallest view that makes the change clear. Skip preambles and keep prose brief. Pick one or two of::
 - Pseudocode for logic or an algorithm
 - A call tree for runtime control flow
 - A component tree for UI structure (include state and module boundaries that matter)
@@ -18,6 +17,15 @@ Show the smallest view that makes the change clear. Skip preambles and keep pros
 - A Mermaid diagram for component interaction or data flow
 - A `diff` block of any of the above when the surrounding shape already exists and the point is what changed
 Put each visual next to the short sentence it supports. Keep only the calls, files, props and states a reviewer needs.
+Skip preambles and keep prose brief.
+-->
+
+## Why
+
+<!--
+INSTRUCTIONS: replace this comment with your answer.
+Why are we making this change? Lead with the outcome a reviewer needs to know.
+Then link the PBI or issue, or give the email subject or conversation, as a reference.
 -->
 
 ## Evidence
