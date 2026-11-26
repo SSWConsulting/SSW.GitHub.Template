@@ -50,10 +50,14 @@ Before/After is optional. Use it only when there is a meaningful before state (a
 
 **Blast Radius:**
 
+**Security:**
+
 <!--
-INSTRUCTIONS: replace this comment and fill in Door and Blast Radius.
+INSTRUCTIONS: replace this comment and fill in Door, Blast Radius and Security.
 - Door: "two-way" if the change is cheap to roll back, or "one-way" if it is destructive or hard to reverse (data migrations, deletions, published contracts). Add a sentence if it isn't obvious.
 - Blast Radius: in a short sentence or two, what could break, who would notice, and how would we undo it? Think broken consumers, layout shift, mobile responsiveness, data loss.
+- Security: could this change introduce a security risk? Think authentication and authorization, input validation and injection, secrets or credentials, personal or sensitive data, new dependencies, and permission or infrastructure changes. Name any risk and how it's mitigated, or say why there's none.
+  Then list any security reviews done, and what they found. For example: Claude Code's /security-review, a static analysis or dependency scan, or a review by a security-focused colleague. If none was done, say so.
 -->
 
 <!--
